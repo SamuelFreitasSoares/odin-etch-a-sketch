@@ -30,9 +30,11 @@ body {
     height: 603px;
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
-#container > div {
-    min-width: 149px;
-    min-height: 149px;
+.colorbox{
+    box-sizing: border-box;
 }
+
+
