@@ -9,24 +9,23 @@
 </head>
 <body>
 
-    <div class="header">
-        <h1 class="title">ETCH-A-SKETCH</h1>
-    </div>
+
 
     <div id="main">
 
         <div class="right">
             <button id="change-size">change size</button>
-            <input id="size-value">
+            <input id="size-value" value="16">
         </div>
         
         <div id="container"></div>
 
         <div class="options">
             <button>Color</button>
-            <button>Eraser</button>
+            <button id="reset">Clear</button>
             <button>Random</button>
             <div class="slider-container">
+                <div class="opac">Opacity: </div>
                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
             </div>
         </div>

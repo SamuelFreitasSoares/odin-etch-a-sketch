@@ -8,13 +8,7 @@ body {
     flex-direction: column;
   }
 
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #063970;
-    color: white;
-}
+
 
 #main{
     width: 100%;
@@ -35,6 +29,20 @@ body {
 
 .colorbox{
     box-sizing: border-box;
+    background-color: white;
 }
 
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.slider-container{
+    display: flex;
+    gap: 10px;
+}
+
+.slider{
+    padding-top: ;
+}
